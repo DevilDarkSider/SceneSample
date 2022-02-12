@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/HomeWork11/.vs/HomeWork11/v16/ipch/AutoPCH
+/HomeWork11/Debug
+/HomeWork11/.vs/HomeWork11/v16
+/HomeWork11/Scene/Debug

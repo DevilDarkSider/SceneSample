@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{63ba6b56-1668-485a-a523-7f39cc52c11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shape">
+      <UniqueIdentifier>{cf9ec2ae-0cd8-45ec-b6a2-86c17d01628d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shape\Circle">
+      <UniqueIdentifier>{1321c78c-ff56-45ab-8a4d-2e2784bf62dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shape\Rect">
+      <UniqueIdentifier>{ad8fa799-9c9b-427b-b023-eed3a343e66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shape\Square">
+      <UniqueIdentifier>{4ee963a7-e737-4c65-9e89-07239b335475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shape\Ellipse">
+      <UniqueIdentifier>{ad5b693c-9cb8-447b-94a0-58116e9b69ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Scene\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Scene\Shape\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Scene\Shape\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Scene\Shape\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Scene\Shape\Ellipse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Scene\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Scene\Shape\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Scene\Shape\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Scene\Shape\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Scene\Shape\Ellipse</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
